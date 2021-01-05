@@ -12,4 +12,10 @@ async getWeather(){
         const data = await fetch(URI);
         return data;
     }
+
+
+    changeLocation(city, contryCode){
+        this.city = city;
+        this.contryCode = contryCode;
+    }
 }
