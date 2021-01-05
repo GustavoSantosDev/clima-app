@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "webpack",
-    "dev": "webpack-dev-server -d"
+    "start": "webpack serve --open"
   },
   "keywords": [],
   "author": "",
@@ -17,4 +17,6 @@
     "util": "^0.12.3",
     "webpack": "^5.11.1",
     "webpack-cli": "^4.3.0",
-    "w
+    "webpack-dev-server": "^3.11.1"
+  }
+}

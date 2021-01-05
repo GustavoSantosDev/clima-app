@@ -9,6 +9,8 @@ module.exports = {
   },
   mode: 'development',
   devServer: {
+    contentBase: './dist',
+    compress: true,
     port: 3000
   },
   module: {
